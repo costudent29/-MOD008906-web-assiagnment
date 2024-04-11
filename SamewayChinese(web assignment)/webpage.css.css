@@ -1,0 +1,311 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    height: 114px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    z-index: 100;
+    border: 2px solid rgb(255, 255, 255);
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       /* border: 2px solid yellow;*/
+    }
+
+    .logo{
+        width: 9px;
+        height: 60px;
+    }
+
+    .header a img {
+        max-width: 990%;
+        height:auto;
+    }
+
+    .navbar a {
+        position:relative;
+        font-size: 20px;
+        color:rgb(255, 0, 0);
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 80px;
+        font-family:'Lato';
+    }
+
+    .navbar a::before{
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: rgb(255, 0, 0);
+        transition: .1s;
+    }
+
+    .navbar a:hover::before{
+        width:100%
+    }
+
+    footer {
+        /*background-color:seagreen;*/
+        color:rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        position: static;
+        bottom: 0;
+        width: 100%;
+        }
+
+        .card {
+            background-color: rgb(255, 0, 0);
+        }
+
+        .card{
+        margin: auto;
+         width: 50%;
+        border: 3px double rgb(255, 255, 255);
+        padding: 100px;
+        text-align: center;
+        }
+
+        .card2{
+            background-color: rgb(255, 0, 0);
+
+        }
+        
+        .card2{
+            margin: auto;
+            width: 30%;
+           border: 3px double rgb(255, 255, 255);
+           padding: 10px;
+           text-align: center;
+
+        }
+
+        .image1{
+            width: auto;
+            height: auto;
+            border: 2px 
+        }
+
+        .image2{
+            width: auto;
+            height: auto;
+            border: 2px 
+        }
+
+        .imgbackground{
+            background-image: url(https://www.cookinshanghai.com/wp-content/uploads/2015/05/cantonese-chef-cooking.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh; 
+            width: 100%;
+
+        }
+
+        #product{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            text-align: center;
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left: 100px;
+            width: 600px;
+            height: 100px;
+            position: relative;
+        }
+
+        #product h3{
+            margin-left: 100px;
+        }
+
+        #product img{
+            width: 95px;
+            height: 75px;
+            margin-top: 0px;
+            position: absolute;
+        }
+
+        #product input{
+            width: 50px;
+            height: 20px;
+            padding: 8px;
+            margin-left: 5px;
+        }
+
+        #product button{
+            width: 100px;
+            height: 20px;
+            padding: 0px;
+            margin-left: 5px;
+            background-color: aqua;
+            cursor: pointer;
+        }
+
+        #product p, #product label{
+            margin-left: 10px;
+            font-weight: 700;
+        }
+
+        .item1{
+            margin-top: 100px;
+        }
+
+        .item2{
+            margin-top: 20px
+        }
+        
+        .item3{
+            margin-top: 20px;
+        }
+
+        .item4{
+            margin-top: 20px;
+        }
+
+        .item5{
+            margin-top: 20px;
+        }
+
+        .item6{
+            margin-top: 20px;
+        }
+
+        .item7{
+            margin-top: 20px;
+        }
+
+        .item8{
+            margin-top: 20px;
+        }
+
+        .item9{
+            margin-top: 20px;
+        }
+
+        .item10{
+            margin-top: 20px;
+        }
+
+        .basket{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            text-align: center;
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left: 100px;
+            margin-top: 20px;
+            width: 600px;
+            height: 80px;
+        }
+
+        .basket #checkoutButton{
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            background-color: greenyellow;
+            margin-top: 5px;
+            margin-left: 150px;
+            cursor: pointer;
+        }
+
+        .basket p{
+            width: 500px;
+            margin-left: 5px;
+            font-size: 18px;
+            font-weight: 800;
+        }
+
+        .down{
+             /*background-color:seagreen;*/
+        color:rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
+
+        .nice{
+            margin: 25px;
+             text-align: center;
+            padding-bottom: 25px;
+            border-bottom: 10px solid rgb(19, 19, 19);
+        }
+
+        .button{
+            text-align: center;
+        }
+
+        .feedback{
+            text-align: center;
+    
+            border-bottom: 1px solid rgb(19, 19, 19);
+        }
+
+        .searchbar{
+            position: absolute;
+            top: 10%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            height: 40px;
+            width: 300px;
+            border: 1px solid black;
+            border-radius: 60px;
+            padding: 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-input{
+            background: transparent;
+            flex: 1;
+            padding: 5px 5px;
+            width: 200px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+
+        }
+
+        .searchbar button{
+            border: 0;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        .searchbar button img{
+            width: 25px;
+        }
+
+        
+        
+
+        
+        
+        
+        
+
+
+
+    
+    

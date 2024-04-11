@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<Head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SameWay Chinese</title>
+    <link rel="stylesheet" href="../webpage.css.css">
+    <script src="../webpage.js.js"></script>
+</Head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="../Assests/Logo2.png" alt="Logo"></a>
+        <nav class="navbar">
+            <a href="../webpage.html.html">Home</a>
+            <a href="../public/about.html">About Us</a>
+            <a href="../public/menu.html">Menu</a>
+            
+                   
+            <a href="../public/contact.html">Contact Us</a>
+
+        </nav>
+    </header>
+
+
+
+    
+
+    
+    <div class="item1" id="product">
+        <h3> Spice Bag</h3>
+        <p>Price: £10</p>
+        <img src="../Assests/Spice-Bag2.jpg" alt="Spice Bag">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity1" min="1" value="1">
+        <button onclick="addToBasket('Item 1', 10, 'quantity1')">Add to Basket</button>
+    </div>
+   
+    <div class="item2" id="product">
+        <h3>Chicken Chow Mein</h3>
+        <p>Price: £14</p>
+        <img src="../Assests/Chicken Chow Mein.png" alt="Chicken Chow Mein">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity2" min="1" value="1">
+        <button onclick="addToBasket('Item 2', 14, 'quantity2')">Add to Basket</button>
+    </div>
+ 
+    <div class="item3" id="product">
+        <h3>Mega Box</h3>
+        <p>Price: £25</p>
+        <img src="../Assests/munchbox.jpg" alt="Mega Box">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity3" min="1" value="1">
+        <button onclick="addToBasket('Item 3', 25, 'quantity3')">Add to Basket</button>
+    </div>
+    
+
+    <div class="item4" id="product">
+        <h3>Salt & Pepper Chips</h3>
+        <p>Price: £4</p>
+        <img src="../Assests/Salt&PepperChips.jpg" alt="Salt & Pepper Chips">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity3" min="1" value="1">
+        <button onclick="addToBasket('Item 3', 4, 'quantity3')">Add to Basket</button>
+    </div>
+
+    <div class="item5" id="product">
+        <h3>Chicken Balls 6pc</h3>
+        <p>Price: £2</p>
+        <img src="../Assests/ChickenBalls.jpg" alt="Chicken Balls">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity3" min="1" value="1">
+        <button onclick="addToBasket('Item 3', 2, 'quantity3')">Add to Basket</button>
+    </div>
+
+    <div class="item6" id="product">
+        <h3>Egg Fried Rice</h3>
+        <p>Price: £6</p>
+        <img src="../Assests/eggfriedrice.jpg" alt="Egg Fried Rice">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity3" min="1" value="1">
+        <button onclick="addToBasket('Item 3', 6, 'quantity3')">Add to Basket</button>
+    </div>
+
+    <div class="item7" id="product">
+        <h3>Coke</h3>
+        <p>Price: £1.20</p>
+        <img src="../Assests/coke2.png" alt="Coke">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity3" min="1" value="1">
+        <button onclick="addToBasket('Item 3', 1.20, 'quantity3')">Add to Basket</button>
+    </div>
+
+    <div class="item8" id="product">
+        <h3>7up</h3>
+        <p>Price: £1</p>
+        <img src="../Assests/7up.jpg" alt="7up">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity3" min="1" value="1">
+        <button onclick="addToBasket('Item 3', 1, 'quantity3')">Add to Basket</button>
+    </div>
+
+    <div class="item9" id="product">
+        <h3>Fanta</h3>
+        <p>Price: £1</p>
+        <img src="../Assests/fanta.jpg" alt="Fanta">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity3" min="1" value="1">
+        <button onclick="addToBasket('Item 3', 1, 'quantity3')">Add to Basket</button>
+    </div>
+
+    <div class="item10" id="product">
+        <h3>Dr.Pepper</h3>
+        <p>Price: £1</p>
+        <img src="../Assests/DR.Pepper.png" alt="Dr.Pepper">
+        <label for="quantity1">Quantity:</label>    
+        <input type="number" id="quantity3" min="1" value="1">
+        <button onclick="addToBasket('Item 3', 1, 'quantity3')">Add to Basket</button>
+    </div>
+    
+    <div class="basket">
+        <ul id="basket-items"></ul>
+        <p>Total Order (plus £20 delivery): £<span id="total">0</span></p>
+        <button id="checkoutButton" onclick="checkout()">checkout</button>
+     </div>
+
+     
+
+
+</body>
+
+
